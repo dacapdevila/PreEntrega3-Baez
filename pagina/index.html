@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="./normalize.css" />
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
   <header class="container text-center">
     <div class="row">
@@ -28,29 +28,29 @@
   <div class="container">
     <div class="row justify-content-around">
 
-      <div class=" col-sm-3 col-md-3">
-         <nav class="nav flex-column">
-        <a class="nav-link active" id="inicio" aria-current="page" href="./index.html">Inicio</a>
-        <a class="nav-link" href="./reservas.html">Reservas</a>
-        <a class="nav-link" href="./sobre-nosotros.html">Sobre Nosotros</a>
-        <a class="nav-link" href="./nuestra-materia.html">Nuestra materia prima</a>
-        <a class="nav-link" href="./contactanos.html">Contactanos</a>
-        <a class="nav-link" href="#redes">Nuestras redes</a>
+      <div class="col-sm-3 col-md-3">
+        <nav class="nav flex-column">
+          <a class="nav-link active" id="inicio" aria-current="page" href="./index.html">Inicio</a>
+          <a class="nav-link" href="./reservas.html">Reservas</a>
+          <a class="nav-link" href="./sobre-nosotros.html">Sobre Nosotros</a>
+          <a class="nav-link" href="./nuestra-materia.html">Nuestra materia prima</a>
+          <a class="nav-link" href="./contactanos.html">Contactanos</a>
+          <a class="nav-link" href="#redes">Nuestras redes</a>
         </nav>
       </div>
 
-      <main class="col-sm-6 col-md-6">
-        <iframe
+      <main class="col-sm-7 col-md-7">
+        <iframe class="col-sm-12 col-md-12"
           src="https://www.google.com/maps/embed?pb=!4v1674613456006!6m8!1m7!1sqDkTR_4rliZ5SSGcpek4Xg!2m2!1d-35.05544101793521!2d-58.75925908392995!3f259.85415691962965!4f-4.256177893374627!5f0.7820865974627469"
-          style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa-i">
+          style="border: 0" height="100%" width="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa-i">
         </iframe>
       </main>
-
     </div>
+
   </div>
 
 
-  <footer class="container-fluid text-center" id="redes">
+  <footer class="container-fluid text-center mt-auto" id="redes">
     <div class="row">
       <div class="col-sm-4">
         <a href="https://www.instagram.com/confiteria.libertad/" target="_blank">
