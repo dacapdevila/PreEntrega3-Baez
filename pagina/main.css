@@ -8,7 +8,7 @@
 
 body {
   background-image: url(https://static.vecteezy.com/system/resources/previews/005/140/844/non_2x/brown-wooden-table-on-coffee-shop-or-restaurant-background-free-photo.jpg);
-
+  background-size: cover;
 }
 
 header {
@@ -79,6 +79,7 @@ i {
   color: rgb(11, 11, 155);
 }
 
+
 /*RESERVAS*/
 
 form {
@@ -91,7 +92,7 @@ form {
 }
 
 
-#boton:hover {
+#boton-one:hover {
   border: solid;
 }
 
@@ -131,7 +132,9 @@ p {
 
 #blured-four {
   background-color: rgba(240, 234, 221, 0.5);
-  padding:2%;
+  padding: 2%;
 }
 
-/*MEDIA QUERIES*/
+#boton-two:hover {
+  border: solid;
+}
