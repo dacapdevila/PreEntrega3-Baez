@@ -1,0 +1,136 @@
+@import 'estilos';
+
+
+
+/*ELEMENTOS COMUNES*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Satisfy&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    font-family: "Playfair Display", serif;
+}
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/140/844/non_2x/brown-wooden-table-on-coffee-shop-or-restaurant-background-free-photo.jpg);
+    background-size: cover;
+}
+
+header {
+    @include estilo-CajasPrimarias;
+    height: 85%;
+    margin-bottom: 2%;
+}
+
+nav {
+    @include estilo-CajasPrimarias;
+    padding-left: 0%;
+
+    a {
+        border-bottom: solid;
+        border-color: black;
+        font-size: large;
+        color: black;
+    }
+
+    #social {
+        border-bottom: none;
+    }
+
+}
+
+#boton-menu {
+   font-weight: bold 
+}
+
+footer {
+    @include estilo-CajasPrimarias;
+ 
+    font-weight: bolder;
+    border: solid;
+    padding: 1%;
+    margin-top: 2%;
+
+    i {
+        font-size: xx-large;
+    }
+
+    #insta {
+        color: black;
+    }
+
+    #whatsapp {
+        color: #25D366;
+    }
+
+    #face {
+        color: #3b5998;
+    }
+
+}
+
+
+
+
+/*RESERVAS*/
+
+form {
+  @include estilo-CajasPrimarias;
+
+    padding: 2%;
+
+    #boton-one:hover {
+        border: solid;
+    }
+
+    label {
+        font-weight: bolder;
+    }
+
+}
+
+#blured-three {
+    @include fondo-textos-forms
+}
+
+/*SOBRE NOSOTROS*/
+
+#blured-one {
+    @include fondo-textos-forms
+}
+
+p {
+    font-size: large;
+    font-weight: bold;
+    text-align:$text-align;
+}
+
+
+#firma {
+    font-family: 'Satisfy', cursive; 
+}
+
+
+.uno::first-letter {
+    color: brown;
+}
+
+/*NUESTRA MATERIA PRIMA*/
+
+#blured-two {
+    @include fondo-textos-forms
+}
+
+#casa-do-cafe {
+    border: solid;
+}
+
+/*CONTACTANOS*/
+
+#blured-four {
+    @include fondo-textos-forms
+}
+
+#boton-two:hover {
+    border: solid;
+}

@@ -12,14 +12,14 @@
         rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./estilos-css-scss/main.css"/>
     <link rel="stylesheet" href="./normalize.css">
 
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
-    <header class="container text-center">
+    <header class="container text-center" id="ver-menu">
         <div class="row">
             <h1 class="col-sm-12 col-md-12">Confitería Libertad</h1>
             <h2 class="col-sm-12 col-md-12">Dedicados a crear buenos momentos...</h2>
@@ -36,7 +36,7 @@
                     <a class="nav-link text-dark" href="./sobre-nosotros.html">Sobre Nosotros</a>
                     <a class="nav-link text-dark" href="./nuestra-materia.html">Nuestra materia prima</a>
                     <a class="nav-link text-dark" href="./contactanos.html">Contactanos</a>
-                    <a class="nav-link text-dark" href="#redes">Nuestras redes</a>
+                    <a class="nav-link text-dark" href="#redes" id="social">Nuestras redes</a>
                 </nav>
             </div>
 
@@ -44,25 +44,30 @@
 
                 <h1 class="text-center">Sobre nosotros</h1>
 
-                <p class="uno">Creamos un espacio pensado para el disfrute de nuestros clientes, donde podrán encontrar
-                    café
-                    de excelencia de la mano de Casa Do Café. <br> Un ambiente relajado y familiar durante el día y un
-                    pub
-                    durante la noche.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure labore nulla dolores similique
-                    aliquam in
-                    non cupiditate minima laboriosam sint veniam distinctio incidunt, accusantium quia nihil voluptatem
-                    nobis cumque rem.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis molestiae veritatis voluptate neque
-                    excepturi obcaecati qui dolor, tempora, eaque animi autem non porro accusamus iure? Rem ducimus
-                    ipsam
-                    reprehenderit cum.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, maxime perspiciatis error animi ipsam
-                    dolorem. Totam accusamus earum sapiente reprehenderit odit quos similique! Voluptatibus iste eos
-                    velit
-                    at! Molestias, explicabo.
+                <p class="uno">En Confitería Libertad creamos un espacio pensado para el disfrute de los comensales. Un ambiente relajado y familiar donde podrán encontrar
+                    café de excelencia, platos gourmet... todo brindado con una cálida atención. 
+                </p>
+                <p>
+                    Luego de nuestra inauguración en enero de 2023, esperamos comenzar junto a ustedes, nuestros clientes, un largo trayecto de revaloración de la experiencia gastronómica de nuestra querida ciudad, Cañuelas.
+                </p>
+                <p>
+                    Por tanto, ¡nuestras puertas están abiertas! Esperamos recicibirlos cualquier día de éstos, para emprender éste viaje.
+                </p>
+                <p id="firma">
+                    Atte. Confitería Libertad.
                 </p>
             </main>
+        </div>
+
+        <div class="row justify-content-center pb-5">
+            <img src="../imagenes/confiteria.jpg" class="col-sm-5 gy-3">
+        </div>
+        
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+          <a class="btn btn-light col-sm-12 col-md-4 mb-3" href="#ver-menu" role="button" id="boton-menu">Ver menú</a>
         </div>
     </div>
 

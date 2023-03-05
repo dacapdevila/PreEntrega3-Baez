@@ -1,0 +1,29 @@
+
+/*VARIABLES*/
+
+$color-elementos-primarios: antiquewhite;
+
+$sombra-elementos: 0px -1px 12px -2px rgba(0, 0, 0, 0.75) 0px -1px 12px -2px rgba(0, 0, 0, 0.75) 0px -1px 12px -2px rgba(0, 0, 0, 0.75);
+
+$text-align: justify;
+
+
+/*MIXINS*/
+
+@mixin estilo-CajasPrimarias {
+    border: solid;
+    color: black;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: $sombra-elementos;
+    background-color: $color-elementos-primarios;
+
+}
+
+@mixin fondo-textos-forms ($fondo: rgba(240, 234, 221, 0.5)) {
+    padding: 2%;
+    background-color: $fondo;
+}
+
