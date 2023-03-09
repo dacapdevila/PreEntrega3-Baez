@@ -20,6 +20,8 @@ header {
     @include estilo-CajasPrimarias;
     height: 85%;
     margin-bottom: 2%;
+    animation-name: fade;
+    animation-duration: 4s;
 }
 
 nav {
@@ -69,6 +71,35 @@ footer {
 
 }
 
+/*KEYFRAMES ANIMACION*/
+
+@keyframes fade {
+    0% {
+        size: 50%;
+        opacity: 0;
+      }
+      100% {
+        size: 100%;
+        opacity: 1;
+      }
+}
+
+/*
+#container-slide {
+    .slider {
+        list-style: none;
+        position: relative;
+        width: 800px;
+        height: 300px;
+        li {
+            margin: $box-model-slider;
+        padding: $box-model-slider;
+        list-style: none;
+    position: absolute;
+        }
+    }
+    
+}
 
 /*RESERVAS*/
 
