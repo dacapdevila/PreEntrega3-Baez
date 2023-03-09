@@ -21,7 +21,7 @@ header {
     height: 85%;
     margin-bottom: 2%;
     animation-name: fade;
-    animation-duration: 4s;
+    animation-duration: 4.5s;
 }
 
 nav {
@@ -71,15 +71,23 @@ footer {
 
 }
 
+/*SLIDER*/
+
+#imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 /*KEYFRAMES ANIMACION*/
 
 @keyframes fade {
     0% {
-        size: 50%;
+      width: 40%;
         opacity: 0;
       }
       100% {
-        size: 100%;
+        width: 100%;
         opacity: 1;
       }
 }
