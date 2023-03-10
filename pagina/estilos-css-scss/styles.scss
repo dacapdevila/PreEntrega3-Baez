@@ -81,7 +81,6 @@ footer {
     #face {
         color: #3b5998;
     }
-
 }
 
 /*SLIDER*/
@@ -113,8 +112,6 @@ footer {
 
 form {
     @include estilo-CajasPrimarias;
-
-    padding: 2%;
 
     #boton-one:hover {
         border: solid;
